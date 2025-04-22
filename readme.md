@@ -26,6 +26,8 @@ It helps you manage daily tasks and saves them locally in your browser.
 
 ```
 MyToDoList/
+├── README.md       # Project overview & usage guide / 项目说明与使用指南
+├── favicon.ico      # Website icon / 网站图标
 ├── index.html      # Main page / 主页面
 ├── todolist.css    # Styles / 样式表
 └── todolist.js     # Logic / 功能逻辑
