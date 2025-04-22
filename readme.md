@@ -31,6 +31,7 @@ MyToDoList/
 ├── index.html      # Main page / 主页面
 ├── todolist.css    # Styles / 样式表
 └── todolist.js     # Logic / 功能逻辑
+
 ```
 
 ---
@@ -50,12 +51,6 @@ Or deploy online using GitHub Pages / 也可以部署到 GitHub Pages 或其他�
 - CSS3 (Layout, Flexbox, Media Queries / 布局与样式)
 - JavaScript (DOM, Array, localStorage / 动态功能与本地存储)
 
----
-
-## 📸 Screenshot (optional) / 项目截图（可选）
-
-_Add a screenshot here to showcase your UI._  
-_可以在此添加截图展示界面效果_
 
 ---
 
@@ -80,6 +75,4 @@ _可以在此添加截图展示界面效果_
 This project has not been licensed yet.  
 目前尚未选择开源协议，默认保留所有权利。
 
-You can consider adding a LICENSE file if you plan to open source.  
-如果未来想要开源，建议添加一个 LICENSE 文件（如 MIT）
 
