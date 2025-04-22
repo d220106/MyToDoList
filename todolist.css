@@ -5,19 +5,18 @@
   }
   
   body {
-    background-color: #e5f3dd; /* 更温柔的绿色背景 */
+    background-color: #e5f3dd; 
     font-family: Arial, sans-serif;
     padding: 20px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-size: 1rem; /* 基础字体大小 */
-    line-height: 1.6; /* 设置行高以提高可读性 */
+    font-size: 1rem; 
+    line-height: 1.6; 
   }
   
   .container {
-    background: #fff7e6; /* 奶油米色调 */
-    max-width: 800px;
+    background: #fff7e6;
     width: 90%;
     padding: 30px 20px;
     border-radius: 16px;
@@ -25,19 +24,11 @@
   }
   
   h1 {
-    color: #6a4e42; /* 温柔一点的棕红色 */
+    color: #6a4e42; 
     font-size: 2rem;
     margin-bottom: 20px;
     text-align: center;
   }
-
-
-/*为什么这么改？
-你原来的结构是两个独立元素（input 和 button），没有任何父级容器负责布局，所以它们默认是竖着排列的（block 元素行为）。
-
-现在，我们加了一个 div.input-wrapper，并会在 CSS 中设置这个容器为 display: flex，让它的孩子们（input 和 button）自动横向排列。
-
-同时配合 flex: 1 的样式，输入框可以灵活缩放占满空间，而按钮保持固定大小，达到理想的布局。*/
 
   .input-wrapper {
     display: flex;
@@ -48,7 +39,7 @@
   
   .input-wrapper input {
     flex: 1;
-    width: auto; /* 避免继承你上面写的 input 全宽 */
+    width: auto; 
     margin-bottom: 0;
   }
   
@@ -59,14 +50,6 @@
     margin-bottom: 0;
   }
 
- /* 最终成果（视觉描述）
-
-  输入框和 Add 按钮水平排成一行
-  
-  输入框很自然地撑满大部分空间
-  
-  按钮贴在右边、不会掉到底下 */
-
   
   input, button {
     padding: 12px;
@@ -76,21 +59,14 @@
     box-sizing: border-box;
   }
 
-
-/*如果代码使用 width: 100%让每个 input 和 button 都宽度 100%，会竖着占满整行。
-
-如果加了 margin-bottom: 10px，使得按钮掉到底下并和输入框之间有了额外间距。*/
-
-
-
   button {
-    width: 60px;  /* 设置按钮的固定宽度 */
-    height: 60px; /* 设置按钮的固定高度，确保它是正方形 */
-    background-color: #ffb3ab; /* 奶油粉色按钮 */
+    width: 60px;  
+    height: 60px; 
+    background-color: #ffb3ab; 
     color: #5a2c1c;
     border: none;
-    border-radius: 12px; /* 圆角效果 */
-    font-size: 1rem;  /* 可根据需求调整字体大小 */
+    border-radius: 12px; 
+    font-size: 1rem;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,18 +79,19 @@
   }
   
   button:focus {
-    outline: 3px solid #ff998f; /* 提供清晰的焦点视觉反馈 */
+    outline: 3px solid #ff998f; 
   }
   
   
   input[type="checkbox"] {
     margin-right: 12px;
     transform: scale(1.2);
-    background-color: #6c9f58; /* 修改为绿色 */
-    border: 2px solid #6c9f58;  /* 添加绿色边框 */
+    background-color: #6c9f58; 
+    border: 2px solid #6c9f58;  
   }
   
-  /* 列表项 */
+  
+  
   ul {
     list-style: none;
     margin-top: 20px;
@@ -124,7 +101,7 @@
   li {
     display: flex;
     align-items: center;
-    background-color: #d7eac8; /* 淡绿色卡片背景 */
+    background-color: #d7eac8; 
     color: #4a3d36;
     padding: 12px 16px;
     margin-bottom: 12px;
@@ -145,7 +122,7 @@
     text-align: left;
   }
   
-/*关于具体task按钮靠右的部分*/
+
   .delete-btn {
     margin-left: auto;
     background: none;
@@ -164,7 +141,6 @@
   }
 
   
-  /* 媒体查询：针对小屏设备优化 */
   @media (max-width: 768px) {
     body {
       padding: 10px;

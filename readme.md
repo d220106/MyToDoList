@@ -31,7 +31,6 @@ MyToDoList/
 ├── index.html      # Main page / 主页面
 ├── todolist.css    # Styles / 样式表
 └── todolist.js     # Logic / 功能逻辑
-
 ```
 
 ---

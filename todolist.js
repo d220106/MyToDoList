@@ -35,15 +35,6 @@ function renderTasks() {
     <span class="task-text" style="text-decoration: ${task.done ? "line-through" : "none"}">${task.text}</span>
     <button class="delete-btn" onclick="deleteTask(${index})"> Del </button>
   `;
-  
-/*
-    li.innerHTML = `
-      <input type="checkbox" ${task.done ? "checked" : ""} onclick="toggleTask(${index})" />
-      <span style="text-decoration: ${task.done ? "line-through" : "none"}">${task.text}</span>
-      <button onclick="deleteTask(${index})"> Delete </button>
-    `;
-*/
-
 
     list.appendChild(li);
   });
